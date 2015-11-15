@@ -15,7 +15,7 @@ var presets = [
     PresetClass(name: "Driving", minSensitivity: 10, time1: 5, time2: 5),
     PresetClass(name: "Class", minSensitivity: 8, time1: 20, time2: 10),
     PresetClass(name: "Walking", minSensitivity: 30, time1: 10, time2: 5),
-    PresetClass(name: "Running", minSensitivity: 60, time1: 5, time2: 5)
+    PresetClass(name: "Running", minSensitivity: 100, time1: 5, time2: 5)
 ]
 
 class PresetView: UITableViewController {

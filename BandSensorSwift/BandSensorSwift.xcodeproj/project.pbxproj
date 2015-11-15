@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B3A2EC91BF8BDF10067A6AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2EC81BF8BDF10067A6AA /* ViewController.swift */; };
-		8B3A2ECB1BF8BDFE0067A6AA /* PresetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2ECA1BF8BDFE0067A6AA /* PresetView.swift */; };
-		8B3A2ECD1BF8BE180067A6AA /* AddPresetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3A2ECC1BF8BE180067A6AA /* AddPresetView.swift */; };
-		8B3A2ECF1BF8BE3C0067A6AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B3A2ECE1BF8BE3C0067A6AA /* Main.storyboard */; };
+		8B2F899A1BF8E19B002AD6D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2F89991BF8E19B002AD6D8 /* Main.storyboard */; };
+		8B2F899C1BF8E1B3002AD6D8 /* AddPresetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2F899B1BF8E1B2002AD6D8 /* AddPresetView.swift */; };
+		8B2F899F1BF8E1BB002AD6D8 /* PresetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2F899D1BF8E1BB002AD6D8 /* PresetView.swift */; };
+		8B2F89A01BF8E1BB002AD6D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2F899E1BF8E1BB002AD6D8 /* ViewController.swift */; };
 		9331C4E31AD5001D001A4E69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9331C4E21AD5001D001A4E69 /* AppDelegate.swift */; };
 		9331C4E51AD5001D001A4E69 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9331C4E41AD5001D001A4E69 /* DetailViewController.swift */; };
 		9331C4EA1AD5001D001A4E69 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9331C4E91AD5001D001A4E69 /* Images.xcassets */; };
@@ -20,10 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8B3A2EC81BF8BDF10067A6AA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../Wrist Caffeine/Wrist Caffeine/ViewController.swift"; sourceTree = "<group>"; };
-		8B3A2ECA1BF8BDFE0067A6AA /* PresetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PresetView.swift; path = "../../Wrist Caffeine/Wrist Caffeine/PresetView.swift"; sourceTree = "<group>"; };
-		8B3A2ECC1BF8BE180067A6AA /* AddPresetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddPresetView.swift; path = "../../Wrist Caffeine/Wrist Caffeine/AddPresetView.swift"; sourceTree = "<group>"; };
-		8B3A2ECE1BF8BE3C0067A6AA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = "../../Wrist Caffeine/Main.storyboard"; sourceTree = "<group>"; };
+		8B2F89991BF8E19B002AD6D8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8B2F899B1BF8E1B2002AD6D8 /* AddPresetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPresetView.swift; sourceTree = "<group>"; };
+		8B2F899D1BF8E1BB002AD6D8 /* PresetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresetView.swift; sourceTree = "<group>"; };
+		8B2F899E1BF8E1BB002AD6D8 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9331C4DD1AD5001D001A4E69 /* BandSensorSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BandSensorSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9331C4E11AD5001D001A4E69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9331C4E21AD5001D001A4E69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,12 +69,12 @@
 			isa = PBXGroup;
 			children = (
 				9331C4E21AD5001D001A4E69 /* AppDelegate.swift */,
-				8B3A2EC81BF8BDF10067A6AA /* ViewController.swift */,
 				9331C5051AD502D8001A4E69 /* BandSensorSwift-Bridging-Header.h */,
-				8B3A2ECE1BF8BE3C0067A6AA /* Main.storyboard */,
+				8B2F89991BF8E19B002AD6D8 /* Main.storyboard */,
 				9331C4E41AD5001D001A4E69 /* DetailViewController.swift */,
-				8B3A2ECA1BF8BDFE0067A6AA /* PresetView.swift */,
-				8B3A2ECC1BF8BE180067A6AA /* AddPresetView.swift */,
+				8B2F899B1BF8E1B2002AD6D8 /* AddPresetView.swift */,
+				8B2F899D1BF8E1BB002AD6D8 /* PresetView.swift */,
+				8B2F899E1BF8E1BB002AD6D8 /* ViewController.swift */,
 				9331C4E91AD5001D001A4E69 /* Images.xcassets */,
 				9331C4EB1AD5001D001A4E69 /* LaunchScreen.xib */,
 				9331C4E01AD5001D001A4E69 /* Supporting Files */,
@@ -158,7 +158,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B3A2ECF1BF8BE3C0067A6AA /* Main.storyboard in Resources */,
+				8B2F899A1BF8E19B002AD6D8 /* Main.storyboard in Resources */,
 				9331C4ED1AD5001D001A4E69 /* LaunchScreen.xib in Resources */,
 				9331C4EA1AD5001D001A4E69 /* Images.xcassets in Resources */,
 			);
@@ -171,10 +171,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B3A2ECD1BF8BE180067A6AA /* AddPresetView.swift in Sources */,
-				8B3A2EC91BF8BDF10067A6AA /* ViewController.swift in Sources */,
-				8B3A2ECB1BF8BDFE0067A6AA /* PresetView.swift in Sources */,
+				8B2F89A01BF8E1BB002AD6D8 /* ViewController.swift in Sources */,
 				9331C4E51AD5001D001A4E69 /* DetailViewController.swift in Sources */,
+				8B2F899F1BF8E1BB002AD6D8 /* PresetView.swift in Sources */,
+				8B2F899C1BF8E1B3002AD6D8 /* AddPresetView.swift in Sources */,
 				9331C4E31AD5001D001A4E69 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
